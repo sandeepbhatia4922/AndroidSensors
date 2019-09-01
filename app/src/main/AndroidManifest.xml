@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SensorEventActivity"
-            android:label="Sensor Test"></activity>
+            android:label="Sensor Test"/>
         <activity
             android:name=".MainActivity"
             android:label="Sensor List">
