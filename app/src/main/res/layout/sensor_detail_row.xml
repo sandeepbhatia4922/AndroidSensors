@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/sensor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3-axis Accelerometer"
+        android:padding="4dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/sensor_vendor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vendor = Bosch"
+        android:layout_below="@+id/sensor_name"
+        android:padding="2dp"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/sensor_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="maxRange=156.9064"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/sensor_name"
+        android:padding="4dp"
+        android:textSize="12sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".7dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/sensor_vendor"
+        android:background="#F8CCCBCB" />
+
+</RelativeLayout>
